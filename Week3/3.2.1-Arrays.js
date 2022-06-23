@@ -12,7 +12,7 @@ const something = [x, y, 4, "green", true, false, null, [9, 0, 9, 8, 5], ["this"
 
 // access the 1st item in the Array
 
- console.log("somethin[0] = ", something[0]);
+ console.log("something[0] = ", something[0]);
 
 // access the last item in the Array
 
