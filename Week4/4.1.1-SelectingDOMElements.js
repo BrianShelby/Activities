@@ -1,21 +1,24 @@
+/*
+  4.1.1-SelectingDOMElements.js
+  ==============================
+*/
+
 // select all unordered list (ul) elements
 
-const unorderedList =
-  document.getElementsByTagName("ul");
-  // document.querySelectorAll("ul");
+console.log("All UL tags ... ", document.getElementsByTagName("ul"));
+console.log(document.querySelectorAll("ul"));
 
-  console.log(unorderedList);
+// select all elements with the class "class-week"
 
-// // select all elements with the class "class-week"
+console.log("All class-week class names ... ",document.querySelectorAll(".class-week"));
+console.log(document.getElementsByClassName("class-week"));
 
-// document.getElementsByClassName("class-week");
-// document.querySelectorAll(".class-week");
-// // select all elements with the class "nav-bar"
+// select all elements with the class "nav-bar"
 
-// document.getElementsByClassName("nav-bar");
-// document.querySelectorAll(".nav-bar");
+console.log("Nav-Bar element 0 ... ", document.querySelectorAll(".nav-bar")[0]);
+console.log(document.getElementsByClassName("nav-bar"));
 
-// // select the element with the id "dog-picture" and save it to a variable
+// select the element with the id "dog-picture" and save it to a variable
 
-// document.getElementById("dog-picture");
-// document.querySelector("#dog-picture");
+const dogPicHTML = document.querySelector("#dog-picture");
+console.log("Dog picture ... ", dogPicHTML);
